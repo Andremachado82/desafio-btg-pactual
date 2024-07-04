@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 public class OrderItem {
 
     private String product;
-    
+
     private Integer quantity;
 
     @Field(targetType = FieldType.DECIMAL128)
